@@ -1,6 +1,6 @@
 # This program adds two numbers
 """its fun """
-N1 = 3
+N1 = 7
 N2 = 6
 # Add two numbers
 S = N1+N2
