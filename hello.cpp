@@ -1,7 +1,7 @@
 /* C++ Programming Examples */
 		
 #include<iostream>
-#include<ncurses>
+#include<ncurses.h>
 int main()
 {
 	cout<<"Hello Compiler, I am C++";
