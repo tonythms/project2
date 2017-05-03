@@ -5,7 +5,7 @@
 using namespace std; // telling the compiler to use namespace "std",
 		     // where the entire C++ library is declared.
 	
-int main()
+int hello()
 {
         // Print out a sentence on the screen.
         // "<<" causes the expression on its right to 
