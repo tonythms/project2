@@ -1,2 +1,2 @@
 # project2
-Finding the sum of two numbers
+Simple Python and CPP programs
