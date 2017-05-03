@@ -1,4 +1,3 @@
-"""sampletest"""
 #!/usr/bin/env python
 """Unit tests for the project1.authentication module."""
 
