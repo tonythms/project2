@@ -26,6 +26,4 @@ class StandAloneTests(TestCase):
     def test_login_error(self, mock_open):
         """Test the login function when an error happens."""
         mock_open.side_effect = IOError()
-        self.assertFalse(auth.login('george', 'bosco'))        
-    
-
+        self.assertFalse(auth.login('george', 'bosco'))
