@@ -1,6 +1,6 @@
 /* C++ Programming Examples */
 		
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
 void main()
 {
