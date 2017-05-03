@@ -11,7 +11,7 @@ int main()
         // "<<" causes the expression on its right to 
         // be directed to the device on its left.
         // "cout" is the standard output device -- the screen.
-	cout << "Hello World!" <<  endl;
+	cout << "Hello World!" <<  endl
 	return 0; // returns 0,which indicate the successful	
 		  // termination of the "main" function 
 		     
