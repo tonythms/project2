@@ -1,7 +1,7 @@
 // File name: HelloWorld.cpp
 // Purpose:   A simple C++ program which prints "Hello World!" on the screen
 
-#include <iostream>  // need this header file to support the C++ I/O system
+#include iostream.h  // need this header file to support the C++ I/O system
 using namespace std; // telling the compiler to use namespace "std",
 		     // where the entire C++ library is declared.
 	
