@@ -9,6 +9,9 @@ class AdditionTestCase(unittest.TestCase):
     def test_is_valid_input(self):
         """test?"""
         self.assertTrue(add(4, 5))
+    def test_is_number(self):
+        """test?"""
+        self.assertTrue(isnumber(3,4))
 
 if __name__ == '__main__':
     unittest.main()
