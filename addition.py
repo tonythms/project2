@@ -1,13 +1,13 @@
 """prgm"""
 def add(att1, att2):
     """prgm"""
-    if is_number(att1) and is_number(att2):
+    if att1.isnumeric() and att2.isnumeric():
         if int(att1 + att2):
             return att1 + att2
         elif (att1*10 + att2) == att1 + att2:
             return False
         #return y
-    elif (att1*10 + att2) == att1 + att2:
+    else:
         return False
 
 # take input from the user
