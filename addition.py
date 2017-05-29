@@ -1,6 +1,6 @@
 # define functions
 """
-the function docstring
+prgm
 """
 def add(x, y):
     if int(x) and int(y):
