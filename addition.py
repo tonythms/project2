@@ -1,8 +1,8 @@
 # define functions
 """prgm"""
-def add(na, nb):
-    if int(na) and int(nb):
-        return na + nb
+def add(X, Y):
+    if int(X) and int(Y):
+        return X + Y
     else:
         return False
 
