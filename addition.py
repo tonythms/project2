@@ -1,5 +1,7 @@
 # define functions
-"""its fun """
+"""
+the function docstring
+"""
 def add(x, y):
     if int(x) and int(y):
         return x + y
