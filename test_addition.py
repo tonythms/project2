@@ -11,7 +11,7 @@ class AdditionTestCase(unittest.TestCase):
         self.assertTrue(add(4, 5))
     def test_is_number(self):
         """test?"""
-        self.assertTrue(A.isdigit())
+        self.assertTrue('A'.isdigit())
 
 if __name__ == '__main__':
     unittest.main()
