@@ -18,6 +18,6 @@ class AdditionTestCase(unittest.TestCase):
     def test_negative_number(self):
     """Is a negative number correctly determined not to be prime?"""
     for index in range(-1, -10, -1):
-        self.assertFalse(add(index,index))
+        self.assertFalse(add(index, index))
 if __name__ == '__main__':
     unittest.main()
