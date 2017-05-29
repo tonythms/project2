@@ -9,7 +9,7 @@ def add(x, y):
 # take input from the user
 print "Addition of two numbers"
 
-n1 = input("Enter first number: ")
-n2 = input("Enter second number: ")
+n1 = raw_input("Enter first number: ")
+n2 = raw_input("Enter second number: ")
 
 print n1, "+", n2, "=", add(n1, n2)
