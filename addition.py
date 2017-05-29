@@ -1,6 +1,6 @@
 # define functions
-"""prgm"""
 def add(X, Y):
+    """prgm"""
     if int(X) and int(Y):
         return X + Y
     else:
