@@ -1,5 +1,5 @@
 """prgm"""
-def add(a, b):
+def add(int(a), int(b)):
     """prgm"""
     if int(a) and int(b):
         return a + b
