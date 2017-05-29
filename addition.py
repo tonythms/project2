@@ -2,9 +2,9 @@
 """its fun """
 def add(x, y):
     if int(x) and int(y):
-         return x + y
+        return x + y
     else:
-         return False
+        return False
 
 # take input from the user
 print "Addition of two numbers"
