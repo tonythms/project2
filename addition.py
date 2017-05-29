@@ -2,9 +2,9 @@
 """
 prgm
 """
-def add(x, y):
-    if int(x) and int(y):
-        return x + y
+def add(na, nb):
+    if int(na) and int(nb):
+        return na + nb
     else:
         return False
 
