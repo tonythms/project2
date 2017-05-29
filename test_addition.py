@@ -8,7 +8,7 @@ class AdditionTestCase(unittest.TestCase):
 
     def test_is_valid_input(self):
         """checking for input in codes"""
-        self.assertFalse(add('4', '5'))
+        self.assertTrue(add('4', '5'))
     def test_is_alphabet(self):
         """testing for alphabets"""
         self.assertFalse('A'.islower())
