@@ -1,7 +1,7 @@
 #unit test
 """ doc string"""
 import unittest
-from addition import add
+from project2.addition import add
 
 class AdditionTestCase(unittest.TestCase):
     """Tests for `addtion.py`"""
