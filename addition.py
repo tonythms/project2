@@ -4,7 +4,7 @@ def add(att1, att2):
     if int(att1) and int(att2):
         if int(att1 + att2):
             return att1 + att2
-        else:
+        elif att1 + att2 equals int(att1 + att2):
             return False
         #return y
     else:
