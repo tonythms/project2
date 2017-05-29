@@ -7,8 +7,8 @@ class AdditionTestCase(unittest.TestCase):
     """Tests for `addtion.py`"""
 
     def test_is_valid_input(self):
-        """Is five successfully determined to be prime?"""
-        self.assertTrue(add(a, b))
+        """test?"""
+        self.assertTrue(add(4, 5))
 
 if __name__ == '__main__':
     unittest.main()
