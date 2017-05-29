@@ -15,6 +15,5 @@ class AdditionTestCase(unittest.TestCase):
     def test_is_valid_input2(self):
         """test?"""
         self.assertTrue(add(98, 104))
-    
 if __name__ == '__main__':
     unittest.main()
