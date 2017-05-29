@@ -2,9 +2,6 @@
 def add(att1, att2):
     """prgm"""
     return att1 + att2
-    
-    return False
-
 # take input from the user
 print "Addition of two numbers"
 
