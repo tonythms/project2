@@ -1,7 +1,7 @@
 """prgm"""
 def add(att1, att2):
     """prgm"""
-    if att1.isnumeric() and att2.isnumeric():
+    if att1.isdigit() and att2.isdigit():
         return att1 + att2
     else:
         return False
