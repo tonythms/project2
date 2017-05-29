@@ -1,4 +1,5 @@
 # define functions
+"""its fun """
 def add(x, y):
    if int(x) and int(y):
     return x + y
