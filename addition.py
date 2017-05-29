@@ -1,10 +1,9 @@
 """prgm"""
 def add(att1, att2):
     """prgm"""
-    if ((att1 + att2) % 10) - att2 == 0:
-        return False
-    else:
         return att1 + att2
+    
+        return False
 
 # take input from the user
 print "Addition of two numbers"
