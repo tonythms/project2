@@ -1,7 +1,5 @@
 # define functions
-"""
-prgm
-"""
+"""prgm"""
 def add(na, nb):
     if int(na) and int(nb):
         return na + nb
