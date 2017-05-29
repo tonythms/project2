@@ -1,15 +1,14 @@
-# addition
-""" doc string"""
-def add(X, Y):
-    if int(X) and int(Y):
-        return X+Y
-    else:
-        return False
+#djafsdo
+"""doc mstrreirj """
+import unittest
+from primes import is_prime
 
-# take input from the user
-print "Addition of two numbers"
+class PrimesTestCase(unittest.TestCase):
+    """Tests for `primes.py`."""
 
-A = raw_input("Enter first number: ")
-B = raw_input("Enter second number: ")
+    def test_is_five_prime(self):
+        """Is five successfully determined to be prime?"""
+        self.assertTrue(is_prime(5))
 
-print A, "+", B, "=", add(A, B)
+if __name__ == '__main__':
+    unittest.main()
