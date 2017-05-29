@@ -1,7 +1,7 @@
 """prgm"""
 def add(att1, att2):
     """prgm"""
-    if int(att1) and int(att2):
+    if is_number(att1) and is_number(att2):
         if int(att1 + att2):
             return att1 + att2
         elif (att1*10 + att2) == att1 + att2:
