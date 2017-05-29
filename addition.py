@@ -1,8 +1,8 @@
 """prgm"""
-def add(a, b):
+def add(att1, att2):
     """prgm"""
-    if int(a) and int(b):
-        return a + b
+    if int(att1) and int(att2):
+        return att1 + att2
     else:
         return False
 
