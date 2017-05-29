@@ -15,7 +15,7 @@ class AdditionTestCase(unittest.TestCase):
     def test_is_alphabet(self):
         """test?"""
         self.assertFalse('A'.islower())
-    def test_is_valid_input(self):
+    def test_is_valid_input2(self):
         """test?"""
         self.assertTrue(add(4, 5))
 
