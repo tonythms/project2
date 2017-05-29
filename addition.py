@@ -7,7 +7,7 @@ def add(att1, att2):
         elif (att1*10 + att2) == att1 + att2:
             return False
         #return y
-    else:
+    elif (att1*10 + att2) == att1 + att2:
         return False
 
 # take input from the user
