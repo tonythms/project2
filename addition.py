@@ -2,7 +2,7 @@
 def add(att1, att2):
     """prgm"""
     if int(att1) and int(att2):
-        Y = att1 + att2
+        int(Y) = att1 + att2
         if int(Y):
             return Y
         else:
