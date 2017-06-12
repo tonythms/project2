@@ -14,9 +14,9 @@ class AdditionTestCase(unittest.TestCase):
         self.assertFalse('A'.islower())
     def test_is_valid_input2(self):
         """testing for normal integers"""
-        self.assertTrue(add(100,200))
+        self.assertTrue(add('0', '0'))
     def test_is_alphabetu(self):
         """testing for alphabets"""
-        self.assertFalse('A'.isdigit())
+        self.assertTrue('A'.isdigit())
 if __name__ == '__main__':
     unittest.main()
