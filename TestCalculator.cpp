@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <list>
-#include <cppunit/TestCase.h>
+#include <cppunit/TestCase>
 #include <cppunit/TestFixture.h>
 #include <cppunit/ui/text/TextTestRunner.h>
 #include <cppunit/extensions/HelperMacros.h>
