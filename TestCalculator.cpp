@@ -11,11 +11,12 @@
 #include <cppunit/XmlOutputter.h>
 #include <netinet/in.h>
 
-#include "Calculator.hpp"
 
 #include <iostream>
 #include <string>
 #include <list>
+
+#include "Calculator.hpp"
 
 using namespace CppUnit;
 using namespace std;
