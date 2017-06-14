@@ -1,11 +1,11 @@
 #unit test
 """ doc string"""
 import unittest
-from addition import add
-A='7'
-B='5'
-C='0'
-D='0'
+from project2.addition import add
+A = '7'
+B = '5'
+C = '0'
+D = '0'
 class AdditionTestCase(unittest.TestCase):
     """Tests for `addtion.py`"""
 
