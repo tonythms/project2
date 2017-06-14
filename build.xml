@@ -4,17 +4,17 @@
 ...
 ...
 
-<target name="testBasicMathCompile"
+<target name="testCalculatorCompile"
       description="cppunit test compile" >
   <exec dir="${build.native}/Test" executable="${make.cmd}" failonerror="true">
 
-  <arg value="testbasicmath"/>
+  <arg value="testcalculator"/>
   </exec>
 </target>
 
-<target name="testbasicmath" 
+<target name="testcalculator" 
       description="cppunit test run" >
-  <exec dir="${build.native}/Test" executable="./testbasicmath" failonerror="false">
+  <exec dir="${build.native}/Test" executable="./testcalculator" failonerror="false">
   </exec>
 
 </target>
