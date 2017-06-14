@@ -13,7 +13,7 @@ class AdditionTestCase(unittest.TestCase):
         self.assertTrue(add(A, B))
     def test_is_valid_input2(self):
         """checking for input in codes"""
-        self.assertTrue(add(A, C))  
+        self.assertTrue(add(A, C))
     def test_is_alphabetl(self):
         """testing for alphabets"""
         self.assertFalse(A.islower())
