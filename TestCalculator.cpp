@@ -19,6 +19,7 @@
 #include "Calculator.hpp"
 
 using CppUnit::TestFixture;
+using CppUnit::XmlOutputter;
 using std::cerr;
 using std::ofstream;
 
