@@ -20,6 +20,7 @@
 
 using CppUnit::TestFixture;
 using std::cerr;
+using std::ofstream;
 
 //-----------------------------------------------------------------------------
 
