@@ -1,6 +1,5 @@
 <property name="xsltproc.cmd" value="/usr/bin/xsltproc"/>
-<target name="testdbCpp2junit" 
-      description="Convert cppunit test results to junit test results" >
+<target name="testdbCpp2junit" description="Convert cppunit test results to junit test results" >
   <echo>Tests run from  directory: $WORKSPACE</echo>
   <exec dir="${build.native}/Test" executable="${xsltproc.cmd}" failonerror="true">
   <arg value="-o"/>
