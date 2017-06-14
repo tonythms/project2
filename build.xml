@@ -1,18 +1,21 @@
-<property name="xsltproc.cmd" value="/usr/bin/xsltproc"/>
+<property name="make.cmd" value="/usr/bin/make"/>
 
 ...
 ...
 ...
 
-<target name="testdbCpp2junit" 
-      description="Convert cppunit test results to junit test results" >
-  <echo>Tests run from  directory: ${build.native}/Test</echo>
-  <exec dir="${build.native}/Test" executable="${xsltproc.cmd}" failonerror="true">
-  <arg value="-o"/>
+<target name="testBasicMathCompile"
+      description="cppunit test compile" >
+  <exec dir="${build.native}/Test" executable="${make.cmd}" failonerror="true">
 
-  <arg value="test/data/junitTestBasicMathResults.xml"/>
-  <arg value="cpp2junit.xslt"/>
-  <arg value="cppTestBasicMathResults.xml"/>
+  <arg value="testbasicmath"/>
   </exec>
+</target>
+
+<target name="testbasicmath" 
+      description="cppunit test run" >
+  <exec dir="${build.native}/Test" executable="./testbasicmath" failonerror="false">
+  </exec>
+
 </target>
 
