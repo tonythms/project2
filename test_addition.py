@@ -23,8 +23,9 @@ class AdditionTestCase(unittest.TestCase):
     def test_is_alphabetu(self):
         """testing for digits"""
         self.assertTrue(A.isdigit())
-    def test_is_true(add(A, B)):
+    def test_is_true(self):
         """testing for the sum"""
-        add(A, B).assertTrue('12')
+        if(add(A, B) == '12'):
+            self.assertTrue(add(A, B))
 if __name__ == '__main__':
     unittest.main()
