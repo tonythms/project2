@@ -18,7 +18,7 @@
 
 #include "Calculator.hpp"
 
-using namespace CppUnit;
+using CppUnit::TestFixture;
 using std::cerr;
 
 //-----------------------------------------------------------------------------
