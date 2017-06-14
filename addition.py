@@ -2,11 +2,10 @@
 def add(att1, att2):
     """prgm"""
     sum = int(att1) + int(att2)
-    if sum==0:
+    if sum == 0:
         return sum 
     elif att1.isdigit and att2.isdigit:
         return sum
-        
     else:
         return False
 
