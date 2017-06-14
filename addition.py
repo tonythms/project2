@@ -3,7 +3,7 @@ def add(att1, att2):
     """prgm"""
     ans = int(att1) + int(att2)
     if ans == 0:
-        return ans 
+        return ans
     elif att1.isdigit and att2.isdigit:
         return ans
     else:
