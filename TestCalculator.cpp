@@ -19,7 +19,7 @@
 #include "Calculator.hpp"
 
 using namespace CppUnit;
-using namespace std;
+using std::cerr;
 
 //-----------------------------------------------------------------------------
 
