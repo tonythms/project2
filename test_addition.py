@@ -8,7 +8,6 @@ C = '0'
 D = '0'
 class AdditionTestCase(unittest.TestCase):
     """Tests for `addtion.py`"""
-
     def test_is_valid_input(self):
         """checking for input in codes"""
         self.assertTrue(add(A, B))
