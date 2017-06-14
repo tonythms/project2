@@ -25,7 +25,7 @@ class AdditionTestCase(unittest.TestCase):
         self.assertTrue(A.isdigit())
     def test_is_true(self):
         """testing for the sum"""
-        if(add(A, B) == '12'):
+        if add(A, B) == '12':
             self.assertTrue(add(A, B))
 if __name__ == '__main__':
     unittest.main()
