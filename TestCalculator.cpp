@@ -1,5 +1,3 @@
-#include "Calculator.hpp"
-
 #include <cppunit/TestCase.h>
 #include <cppunit/TestFixture.h>
 #include <cppunit/ui/text/TextTestRunner.h>
@@ -13,6 +11,7 @@
 #include <cppunit/XmlOutputter.h>
 #include <netinet/in.h>
 
+#include "Calculator.hpp"
 
 #include <iostream>
 #include <string>
