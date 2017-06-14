@@ -112,9 +112,9 @@ int main(int argc, char* argv[])
     compileroutputter.write ();
 
     // Output XML for Jenkins CPPunit plugin
-    //ofstream xmlFileOut("cppTestCalculatorResults.xml");
-    //XmlOutputter xmlOut(&collectedresults, xmlFileOut);
-    //xmlOut.write();
+    ofstream xmlFileOut("cppTestCalculatorResults.xml");
+    XmlOutputter xmlOut(&collectedresults, xmlFileOut);
+    xmlOut.write();
 
     // return 0 if tests were successful
     return collectedresults.wasSuccessful() ? 0 : 1;
