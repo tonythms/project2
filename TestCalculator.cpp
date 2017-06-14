@@ -1,7 +1,6 @@
-#include <iostream>
-#include <string>
-#include <list>
-#include <cppunit/TestCase>
+#include "Calculator.hpp"
+
+#include <cppunit/TestCase.h>
 #include <cppunit/TestFixture.h>
 #include <cppunit/ui/text/TextTestRunner.h>
 #include <cppunit/extensions/HelperMacros.h>
@@ -14,7 +13,10 @@
 #include <cppunit/XmlOutputter.h>
 #include <netinet/in.h>
 
-#include "Calculator.hpp"
+
+#include <iostream>
+#include <string>
+#include <list>
 
 using namespace CppUnit;
 using namespace std;
