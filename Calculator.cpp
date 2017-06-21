@@ -20,3 +20,6 @@ int Calculator::Division(int x, int y)
    return (x / y);
 }
 
+int main()
+{
+}
