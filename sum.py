@@ -1,7 +1,7 @@
 # This program adds two numbers
 """its fun """
 N1 = 180
-N2 = 147
+N2 = 232
 # Add two numbers
 S = N1+N2
 # Display the sum
